@@ -8,6 +8,10 @@ client_vpc = boto3.client('vpc')
 client_ecr = boto3.client('ecr')
 client_iam = boto3.client('iam')
 
+with open('config_task.yaml', 'r') as file:
+    config = yaml.load(file)
+
+    
 
 
 def create_eks():

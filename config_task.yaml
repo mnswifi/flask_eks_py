@@ -1,0 +1,13 @@
+eks:
+  name: 
+
+
+vpc:
+  name:
+  cidr:
+
+ecr:
+  name:
+
+iam:
+  name:
